@@ -1,0 +1,181 @@
+@charset "UTF-8";
+
+/*共通部分*/
+html{font-size: 100%;}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+        width: 100%;
+}
+
+header,footer,nav,article,main {display: block;}
+
+.wrapper {
+            width: 100%;
+            height: 100%;
+}
+
+.frex {
+        display: flex;
+}
+
+header {
+        float: both;
+}
+
+
+
+/*① ロゴのサイズと余白 HEADER*/
+.logo{
+    width: 100px;
+    }
+.page-header{
+    margin-top: 0em;
+    padding:20px 40px;
+    background-color:#202f55
+    
+
+}
+
+
+/*②　article*/
+.left {
+        margin: 0em;
+        padding: 20px;
+        background-color: #00734d;
+}
+
+/*③　aside*/
+.rigth {
+        padding: 20px;
+        background-color: #8c2727;
+        
+}
+
+.main-nav {
+            margin: 20px;
+            display: inline-flex;
+            justify-content:space-around;/*位置と要素感の余白*/
+            list-style: none; /*リストの点をなくす*/
+            margin-right: auto;
+            width: 300px;
+            
+
+
+}
+
+a.disabled{
+        pointer-events: none;
+    }
+
+
+.list {
+    padding: 5px 30px;
+    background-color: #333;
+    border: 1px solid #d98d30;
+    text-align: center;
+    margin-left:  20px;
+    justify-content: space-between;
+    
+    
+
+    
+} 
+
+a {text-decoration: none;}
+
+/*リンクの色*/
+a:link {
+        color: #fff;
+        
+}
+
+/*⑧*/
+h3.rigth {
+        font-size: 20px;
+        color: #00f;
+}
+
+
+/*10 datalistテキストのところ*/
+#text {
+        margin-top: 50px;
+}
+
+.data {
+        color:none;
+        font-family: 'Robot-Light';
+}
+
+
+p.gray {
+        color: #999;
+        font-size: 18px;
+}
+
+.home-content {
+                display: flex;
+}
+
+button {
+        padding: 30px 5px;
+        box-sizing: border-box;
+        border: 1px solid #d98d30;
+}
+
+
+
+
+/*左側*/
+article {
+        float: left;
+        width: 19.5%;
+        height: 500px;
+        font-size: 18px;
+        padding-top: 20px;
+}
+article p {
+                margin-top: 10px;
+                margin-bottom: 10px;
+                
+                
+}
+
+/*右側*/
+main {
+        float: left;
+        width: 81.5%;
+        height: 500px;
+        padding: 20px;
+}
+
+
+/* ④ フッター*/
+footer {
+        clear: both;
+        width: 100%;
+        height: 100px;
+        background-color: #d98d30;
+        margin:0;
+        padding: 20px 40px;
+        box-sizing: border-box;
+}
+
+.footer {
+        justify-content: space-between;
+        display: flex;
+}
+
+
+/*11,12*/
+footer h4 {
+        color: #0f0;
+}
+footer p {
+        font-size: 18px;
+
+}
+
